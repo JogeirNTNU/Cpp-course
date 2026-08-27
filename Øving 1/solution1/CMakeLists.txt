@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 4.4.2)
+project(TemperatureTest)
+project(TemperatureFromFile)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall -Wextra")
+add_executable(TemperatureTest temperature.cpp)
+add_executable(TemperatureFromFile temperatureFromFile.cpp)
