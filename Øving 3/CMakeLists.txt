@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 4.4.2)
+project(oving3)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall -Wextra")
+add_executable(task2 task2.cpp task1.hpp)
+add_executable(commodityTest commodityTest.cpp commodity.cpp)
+add_executable(task4 task4.cpp)
